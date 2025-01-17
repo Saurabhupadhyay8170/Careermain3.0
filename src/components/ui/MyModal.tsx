@@ -22,7 +22,7 @@ const MyModal = ({
   title,
   okIcon,
   cancelIcon,
-  okText = "Submit",
+  okText = "SUBMIT",
   cancelText = "Cancel",
   submitHandler,
   cancelHandler,
@@ -33,7 +33,7 @@ const MyModal = ({
       onCancel={cancelHandler}
       onOk={submitHandler}
       confirmLoading={loading}
-      okButtonProps={{ icon: okIcon }}
+      okButtonProps={{ icon: okIcon, style: { backgroundColor: '#983fd4' } }}
       cancelButtonProps={{ icon: cancelIcon }}
       okText={okText}
       cancelText={cancelText}
