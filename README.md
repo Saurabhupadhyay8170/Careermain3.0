@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Welcome🙏🏼 to the **Website** repo of CareerBanao.
 
 ## 📚 Step-by-Step Contribution Guide
@@ -97,6 +97,5 @@ Thanks to all the wonderful contributors who have helped make this repository be
 ---
 
 ###### *We will do our best to merge as much as possible from everyone. However, time is limited and the merge conflicts are horrible :astonished: <3*
-=======
+
 # Careermain2.0
->>>>>>> 382df6313342ea520c763a39e12980e0a8288483
