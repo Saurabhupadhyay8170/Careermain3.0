@@ -401,13 +401,13 @@ function HomePopUp() {
                                 <div className="popup-form-inputs mt-8 flex flex-col lg:flex-row lg:gap-5">
                                     <div className="popup-form-left w-full lg:w-2/4">
                                         <MyInput
-                                            name="name"
+                                            name="Name"
                                             label={"Full Name"}
                                             pattern={/^[a-zA-Z\s]*$/}
                                             prefix={<Icon path={personIconPath} />}
                                         />
                                         <MyInput
-                                            name="phone"
+                                            name="Phone"
                                             type="tel"
                                             max={10}
                                             pattern={/^[0-9]{10}$/}
@@ -415,7 +415,7 @@ function HomePopUp() {
                                             prefix={<Icon path={phoneIconPath} />}
                                         />
                                         <MyInput
-                                            name="interest"
+                                            name="Interest"
                                             label={"Course interested in"}
                                             select={true}
                                             options={options}
@@ -423,7 +423,7 @@ function HomePopUp() {
                                     </div>
                                     <div className="popup-form-right w-full lg:w-2/4">
                                         <MyInput
-                                            name="email"
+                                            name="Email"
                                             type="email"
                                             label={"Email Address"}
                                             prefix={<Icon path={""} />}
@@ -437,13 +437,13 @@ function HomePopUp() {
                                         /> */}
 
                                         <MyInput
-                                            name="state"
+                                            name="State"
                                             label="State"
                                             select={true}
                                             options={statesOptions}
                                         />
                                         <MyInput
-                                             name="level"
+                                             name="Level"
                                              label="Select Level"
                                              select={true}
                                              options={levelOptions}
@@ -458,8 +458,8 @@ function HomePopUp() {
                                             onChange={validateHandler}
                                             checked={isCheck}
                                         />{" "}
-                                        By submitting this form, you accept <br/> and agree to
-                                        our{" "}
+                                        By Submitting this form, you Accept <br/> and Agree to
+                                        Our{" "}
                                         <Link
                                             to={"/terms-and-conditions"}
                                             className="text-blue-600"
