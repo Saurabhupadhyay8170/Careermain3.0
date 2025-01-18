@@ -115,7 +115,7 @@ const FormSubmission: React.FC<FormSubmissionProps> = ({
             value={formData.fullName}
             onChange={handleInputChange}
             className={`border ${errors.fullName ? "border-red-500" : "border-gray-300"} w-full p-2 rounded-lg`}
-            placeholder="Enter your full name"
+            placeholder="Full Name"
           />
           {errors.fullName && <p className="text-red-500 text-sm">Full name is required</p>}
         </div>
@@ -138,7 +138,7 @@ const FormSubmission: React.FC<FormSubmissionProps> = ({
             value={formData.email}
             onChange={handleInputChange}
             className={`border ${errors.email ? "border-red-500" : "border-gray-300"} w-full p-2 rounded-lg`}
-            placeholder="Enter your email"
+            placeholder="Email"
           />
           {errors.email && <p className="text-red-500 text-sm">Invalid email address</p>}
         </div>
@@ -150,7 +150,7 @@ const FormSubmission: React.FC<FormSubmissionProps> = ({
             value={formData.mobileNumber}
             onChange={handleInputChange}
             className={`border ${errors.mobileNumber ? "border-red-500" : "border-gray-300"} w-full p-2 rounded-lg`}
-            placeholder="Enter your mobile number"
+            placeholder="Mobile Number"
           />
           {errors.mobileNumber && <p className="text-red-500 text-sm">Enter a valid 10-digit number</p>}
         </div>
@@ -162,7 +162,7 @@ const FormSubmission: React.FC<FormSubmissionProps> = ({
             value={formData.program}
             onChange={handleInputChange}
             className={`border ${errors.program ? "border-red-500" : "border-gray-300"} w-full p-2 rounded-lg`}
-            placeholder="Enter your preferred program"
+            placeholder="Preferred Program"
           />
           {errors.program && <p className="text-red-500 text-sm">Program is required</p>}
         </div>}
