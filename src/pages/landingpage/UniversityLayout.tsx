@@ -36,7 +36,11 @@ const UniversityLayout = () => {
         <div className="flex flex-col md:flex-row">
           {/* Main Content */}
           <div
+<<<<<<< HEAD
             className="w-full md:w-4/5 h-screen md:h-auto overflow-y-auto"
+=======
+            className="w-full md:w-4/5 h-auto sm:h-screen md:h-auto overflow-y-auto"
+>>>>>>> 7d32aec (new onw)
             style={{
               scrollbarWidth: "thin",
             }}

@@ -1,4 +1,6 @@
 import { FaLaptopCode, FaMicroscope, FaAtom, FaMoneyCheckAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import React from 'react';
 
 const FinderCard = () => {
   return (
@@ -12,6 +14,11 @@ const FinderCard = () => {
         <button className="bg-white text-primaryBtn px-4 py-2 rounded shadow hover:bg-hoverBtn hover:text-white">
           Find Now
         </button>
+        <Link to='/CollegeFinder'>
+        <button className="bg-white text-primaryBtn px-4 py-2 rounded shadow hover:bg-hoverBtn hover:text-white">
+          Find Now
+        </button>
+        </Link>
       </div>
       <div className="flex flex-wrap justify-center items-center gap-6 relative">
         <div className="flex justify-center items-center animate-bounce">
