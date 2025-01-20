@@ -11,9 +11,6 @@ const ReviewCard = () => {
           <p className="text-sm mb-4">
             Share your thoughts and experiences to help others choose the best college.
           </p>
-          <button className="bg-white text-hoverBtn px-4 py-2 rounded shadow hover:bg-primaryBtn hover:text-white">
-            Start Writing
-          </button>
           <Link to='/review'>
            <button className="bg-white text-hoverBtn px-4 py-2 rounded shadow hover:bg-primaryBtn hover:text-white">
              Start Writing
