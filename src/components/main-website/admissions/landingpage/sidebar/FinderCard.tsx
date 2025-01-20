@@ -11,9 +11,6 @@ const FinderCard = () => {
         <p className="text-sm mb-4">
           Choose the best college based on your qualifications, interests, and budget.
         </p>
-        <button className="bg-white text-primaryBtn px-4 py-2 rounded shadow hover:bg-hoverBtn hover:text-white">
-          Find Now
-        </button>
         <Link to='/CollegeFinder'>
         <button className="bg-white text-primaryBtn px-4 py-2 rounded shadow hover:bg-hoverBtn hover:text-white">
           Find Now
