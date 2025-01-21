@@ -145,17 +145,17 @@ function PrivacyForm() {
                     <MyForm form={form}>
                         <div className="flex flex-col lg:gap-5 lg:flex-row justify-evenly lg:px-3">
                             <div className="w-[100%] lg:w-[23%]">
-                                <FormInput onChange={validateHandler} name="name" required={true} type="text" pattern={/^[a-zA-Z\s]*$/} className="h-[40px]" />
+                                <FormInput onChange={validateHandler} name="Name" required={true} type="text" pattern={/^[a-zA-Z\s]*$/} className="h-[40px]" />
                             </div>
                             <div className="w-[100%] lg:w-[23%]">
-                                <FormInput onChange={validateHandler}  name="phone" required={true} type="tel" pattern={/^[0-9]{10}$/} className="h-[40px]" />
+                                <FormInput onChange={validateHandler}  name="Phone" required={true} type="tel" pattern={/^[0-9]{10}$/} className="h-[40px]" />
                             </div>
                             <div className="w-[100%] lg:w-[23%]">
-                                <FormInput onChange={validateHandler}  name="email" required={true} type="email" className="h-[40px]" />
+                                <FormInput onChange={validateHandler}  name="Email" required={true} type="email" className="h-[40px]" />
                             </div>
                             <div className="w-[100%] lg:w-[23%]">
                                 <FormInput
-                                    name="interest"
+                                    name="Interest"
                                     select={true}
                                     options={menuOptions}
                                     onChange={validateHandler}
@@ -165,7 +165,7 @@ function PrivacyForm() {
                         </div>
                     </MyForm>
                     <div className="w-full text-center">
-                        <button onClick={submitHandler} type="submit" disabled={!isSubmitActive} className={`bg-purple-700 hover:bg-hoverBtn h-[3rem] rounded-3xl text-white text-[16px] font-semibold px-[2rem] ${!isSubmitActive && "cursor-not-allowed bg-slate-500"}`}>Request for a callback</button>
+                        <button onClick={submitHandler} type="submit" disabled={!isSubmitActive} className={`bg-purple-700 hover:bg-hoverBtn h-[3rem] rounded-3xl text-white text-[16px] font-semibold px-[2rem] ${!isSubmitActive && "cursor-not-allowed bg-slate-500"}`}>Request for a Callback</button>
                     </div>
                 </div>
             </div >
