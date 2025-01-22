@@ -18,7 +18,7 @@ function CounselingLayout({ data, loading, category }: any) {
                 <div className="pb-20 flex w-full flex-col lg:flex-row lg:flex-wrap gap-5 p-8">
                     {loading ? <CardSkeleton /> : data?.filter((item: any) => item.hide_record == "0" && item.delete_status != "1")
                         .length > 0 ? <>
-                        {data.filter((item: any) => item.hide_record == "0" && item.delete_status != "1")
+                        {data?.filter((item: any) => item.hide_record == "0" && item.delete_status != "1")
                             .slice(0, displayCount)
                             .map((item: object) => {
                                 return (
