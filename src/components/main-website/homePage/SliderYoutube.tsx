@@ -11,7 +11,7 @@ interface VideoCardProps {
 
 const VideoCard: React.FC<VideoCardProps> = ({ videoUrl, onVideoClick }) => {
   return (
-    <div className="p-5 pb-8" onClick={onVideoClick}>
+    <div className="p-8 pb-10" onClick={onVideoClick}>
       <div className="bg-white shadow-md rounded-lg overflow-hidden">
         <div className="relative w-full" style={{ paddingTop: "75.25%" }}>
           <iframe
